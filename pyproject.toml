@@ -14,5 +14,6 @@ dependencies = [
     "tidy3d",
     "scipy>=1.16.3",
     "pytz",
+    "femwell",
     "pyvisa>=1.16.1",
 ]

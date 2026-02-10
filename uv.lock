@@ -990,6 +990,7 @@ name = "lab0-install"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "femwell" },
     { name = "gdsfactory" },
     { name = "gplugins", extra = ["femwell", "sax", "tidy3d"] },
     { name = "pytz" },
@@ -1000,6 +1001,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "femwell" },
     { name = "gdsfactory", specifier = "==9.19.0" },
     { name = "gplugins", extras = ["femwell", "sax", "tidy3d"], specifier = "~=2.0.0" },
     { name = "pytz" },
